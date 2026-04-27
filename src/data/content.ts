@@ -8,9 +8,12 @@ export interface Article {
   image: string;
 }
 
-import a1 from "@/assets/article-1.jpg";
-import a2 from "@/assets/article-2.jpg";
-import a3 from "@/assets/article-3.jpg";
+import yanarImg from "@/assets/article-yanar-mohammed.jpg";
+import adaImg from "@/assets/article-ada-lovelace.jpg";
+import seacoleImg from "@/assets/article-mary-seacole.jpg";
+import franklinImg from "@/assets/article-rosalind-franklin.jpg";
+import sapphoImg from "@/assets/article-sappho.jpg";
+import lamarrImg from "@/assets/article-hedy-lamarr.jpg";
 
 export const articles: Article[] = [
   {
@@ -20,7 +23,7 @@ export const articles: Article[] = [
     category: "Human Rights",
     era: "Active 1990s – Present",
     readTime: "9 min read",
-    image: a1,
+    image: yanarImg,
   },
   {
     slug: "ada-lovelace",
@@ -29,7 +32,7 @@ export const articles: Article[] = [
     category: "Innovation",
     era: "1815 – 1852",
     readTime: "7 min read",
-    image: a2,
+    image: adaImg,
   },
   {
     slug: "mary-seacole",
@@ -38,7 +41,7 @@ export const articles: Article[] = [
     category: "Medicine",
     era: "1805 – 1881",
     readTime: "7 min read",
-    image: a3,
+    image: seacoleImg,
   },
   {
     slug: "rosalind-franklin",
@@ -47,7 +50,7 @@ export const articles: Article[] = [
     category: "Science",
     era: "1920 – 1958",
     readTime: "8 min read",
-    image: a1,
+    image: franklinImg,
   },
   {
     slug: "sappho-of-lesbos",
@@ -56,7 +59,7 @@ export const articles: Article[] = [
     category: "Poetry",
     era: "c. 630 – 570 BC",
     readTime: "6 min read",
-    image: a2,
+    image: sapphoImg,
   },
   {
     slug: "hedy-lamarr",
@@ -65,7 +68,7 @@ export const articles: Article[] = [
     category: "Innovation",
     era: "1914 – 2000",
     readTime: "9 min read",
-    image: a3,
+    image: lamarrImg,
   },
 ];
 
