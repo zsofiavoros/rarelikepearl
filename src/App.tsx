@@ -21,7 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <CartProvider>
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <BrowserRouter>
           <Layout>
             <Routes>
               <Route path="/" element={<Home />} />
